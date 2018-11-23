@@ -1,0 +1,32 @@
+{
+    "name": "generator-remote",
+    "version": "0.0.0",
+    "description": "Yeoman generator to scaffold project templates from git",
+    "author": "SOLUNIO GmbH",
+    "license": "MIT",
+    "keywords": [
+        "yeoman-generator",
+        "remote",
+        "git"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:solunio/generator-remote.git"
+    },
+    "files": [
+        "generators"
+    ],
+    "scripts": {
+        "version": "npm run version:changelog && git add CHANGELOG.md",
+        "version:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    },
+    "dependencies": {
+        "inquirer": "^6.2.0",
+        "rimraf": "^2.6.2",
+        "rxjs": "^6.3.3",
+        "yeoman-generator": "^3.1.1"
+    },
+    "devDependencies": {
+        "conventional-changelog-cli": "^2.0.11"
+    }
+}

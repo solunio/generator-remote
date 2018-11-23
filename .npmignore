@@ -1,0 +1,6 @@
+*
+
+# NPM
+!generators/**
+!package.json
+!README.md

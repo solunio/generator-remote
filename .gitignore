@@ -1,0 +1,8 @@
+# Node Modules
+node_modules/
+
+# Intellij
+.idea/
+
+# Templates
+generators/app/templates/
