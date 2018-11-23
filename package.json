@@ -1,6 +1,6 @@
 {
     "name": "generator-remote",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Yeoman generator to scaffold project templates from git",
     "author": "SOLUNIO GmbH",
     "license": "MIT",
